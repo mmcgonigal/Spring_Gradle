@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html xmlns:th="http://www.thymeleaf.org" lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,7 +9,7 @@
     <title>Document</title>
 </head>
 <body>
-Hello
-<a href="/hello">hello</a>
+
+<p th:text="'hello!.'  +${data}"></p>
 </body>
 </html>
