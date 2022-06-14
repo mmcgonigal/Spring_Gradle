@@ -26,7 +26,7 @@ public class HelloController {
         return "hello"+name ;
     }
 
-    @GetMapping("Hello-api")
+    @GetMapping("hello-api")
     @ResponseBody
     public Hello helloApi(@RequestParam("name") String name) {
         Hello hello = new Hello();
@@ -44,4 +44,6 @@ public class HelloController {
             this.name= name;
         }
     }
+
+
 }
