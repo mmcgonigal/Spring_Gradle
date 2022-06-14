@@ -32,6 +32,7 @@ public class HelloController {
         Hello hello = new Hello();
         hello.setName(name);
         return hello;
+
     }
 
     static class Hello{
